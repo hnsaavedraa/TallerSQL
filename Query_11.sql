@@ -1,0 +1,5 @@
+SELECT j.JOB_TITLE,e.LAST_NAME,(e.SALARY - j.MIN_SALARY)				
+FROM employees e 
+NATURAL JOIN 
+jobs j
+
